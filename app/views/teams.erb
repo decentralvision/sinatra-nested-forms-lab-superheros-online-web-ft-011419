@@ -1,6 +1,6 @@
 <%= @params[team][name] %>
 <%= @params[team][motto] %>
-<% @params[team][members].each do |hero, i| %>
+<% @params[team][members].each do |hero| %>
   <h2><%=hero["name"]%></h2>
   <p><%=hero["power"]%></p>
   <p><%=hero["bio"]%></p>
